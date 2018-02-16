@@ -5,6 +5,8 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//this is a comment to test git integration.
+	
 	
 }
 // delete condition
@@ -21,7 +23,7 @@ function edt_id(id)
 {
 	if(confirm('Sure to edit ?'))
 	{
-		window.location.href='edit_data.php?edit_id='+id;
+		window.location.href='edit_data.php?delete_id='+id;
 	}
 }
 function delete_id(id)
